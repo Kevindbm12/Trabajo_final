@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'IndieFlower-Regular';
+    src: url('../assets/fonts/IndieFlower-Regular.ttf');
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/img/unnamed.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 50PX;
+    
+}
+
+header img {
+    max-width: 200px;
+}
+
+.weather-content {
+    background-image: url('../assets/img/El-Clima-hoy.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: darkcyan;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.result {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+button {
+    padding: 10px 20px;
+    border:#f4f4f4;
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3da;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.792); 
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    width: 200px;
+    border-radius: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: black;
+    font-family: 'IndieFlower-Regular', sans-serif;
+}
